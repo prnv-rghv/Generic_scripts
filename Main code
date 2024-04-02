@@ -43,7 +43,7 @@ def make_copies_and_zip(num_copies, temp_folder):
 def main():
     num_rows = int(input("Enter the number of rows for each Excel sheet: "))
     num_copies = int(input("Enter the number of copies to make: "))
-    temp_folder = 'D:/temp1'
+    temp_folder = "your desried path where you want to save these files"
 
     create_excel_sheets(num_rows)
     make_copies_and_zip(num_copies, temp_folder)
